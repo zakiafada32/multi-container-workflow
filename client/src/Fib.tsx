@@ -35,7 +35,7 @@ const Fib: React.FC = () => {
   };
 
   const renderValues = () => {
-    const entries = [];
+    const entries: JSX.Element[] = [];
 
     for (let key in values) {
       entries.push(
